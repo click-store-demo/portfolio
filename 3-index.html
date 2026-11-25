@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>بورتفوليو محمد</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial;
+            background-color: #f0f2f5;
+            margin: 0;
+        }
+        .cover {
+            height: 280px;
+            background: url(cover.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-top: -80px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            text-align: center;
+            background-color: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            padding: 0 0 20px;
+        }
+        h1 {
+            color: #050505;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        .followers {
+            color: #65676b;
+            margin: 5px;
+        }
+        .bio {
+            color: #050505;
+        }
+        .details {
+            list-style: none;
+            padding: 0;
+        }
+        .details li {
+            display: inline-block;
+            padding: 8px;
+            color: #050505;
+        }
+        .btn {
+            padding: 10px 24px;
+            border-radius: 8px;
+            border: none;
+            background-color: #e4e6eb;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .primary {
+            background-color: #1877f2;
+            color: white;
+        }
+        .tabs {
+            border-top: 1px solid #e4e6eb;
+            margin-top: 15px;
+        }
+        .tabs a {
+            display: inline-block;
+            padding: 15px;
+            color: #65676b;
+            text-decoration: none;
+        }
+        .tabs a.active {
+            color: #1877f2;
+            background-color: #e7f3ff;
+            border-radius: 20px;
+        }
+        .about {
+            max-width: 900px;
+            margin: 12px auto;
+            background-color: white;
+            padding: 15px 20px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .info {
+            list-style: none;
+            padding: 0;
+        }
+        .info li {
+            padding: 10px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cover"></div>
+        <img src="profile.jpg" alt="الصورة الشخصية" class="avatar">
+        <h1>Mohamed Albtat</h1>
+        <p class="followers">المتابعون ١ ألف · ٣١٦ يتابع</p>
+        <p class="bio">just waiting ....</p>
+        <ul class="details">
+            <li>مصمم 📷</li>
+            <li>Click Store 🏪</li>
+            <li>Kafr el Sheikh 📍</li>
+            <li>كلية الحاسبات والمعلومات - جامعة كفر الشيخ 🎓</li>
+        </ul>
+        <button class="btn primary">لوحة المعلومات 📊</button>
+        <button class="btn">+ إنشاء</button>
+        <div class="tabs">
+            <a href="#" class="active">الكل</a>
+            <a href="#">ريلز</a>
+            <a href="#">الصور</a>
+            <a href="#">ذكريات</a>
+            <a href="#">المناسبات</a>
+        </div>
+    </div>
+    <div class="about">
+        <h2>نبذة عني</h2>
+        <p>مدرس برمجة وشغال بالذكاء الاصطناعي في كورسز زون أكاديمي، وبصمم في Click Store. بعلّم الطلاب إزاي يبنوا صفحات وتطبيقات حقيقية بنفسهم.</p>
+    </div>
+    <div class="about">
+        <h2>التفاصيل الشخصية</h2>
+        <h3>العمل</h3>
+        <ul class="info">
+            <li>💼 مدرس برمجة - مسار الذكاء الاصطناعي في كورسز زون أكاديمي</li>
+            <li>🏪 مصمم في Click Store</li>
+        </ul>
+        <h3>التعليم</h3>
+        <ul class="info">
+            <li>🎓 كلية الحاسبات والمعلومات - جامعة كفر الشيخ</li>
+        </ul>
+        <h3>الأماكن</h3>
+        <ul class="info">
+            <li>📍 ساكن في كفر الشيخ</li>
+            <li>🏠 من كفر الشيخ</li>
+        </ul>
+        <h3>الحالة الاجتماعية</h3>
+        <ul class="info">
+            <li>🤍 أعزب</li>
+        </ul>
+        <h3>المهارات</h3>
+        <ul class="details">
+            <li>البرمجة</li>
+            <li>الذكاء الاصطناعي</li>
+            <li>التصميم</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+</body>
+</html>
